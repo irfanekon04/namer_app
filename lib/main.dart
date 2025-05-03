@@ -18,10 +18,10 @@ class MyApp extends StatelessWidget {
       child: MaterialApp(
         title: 'Namer App',
         theme: ThemeData(
-          fontFamily: 'SFPro',
           textTheme: ThemeData.light().textTheme,
           useMaterial3: true,
-          colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
+          colorScheme: ColorScheme.fromSeed(
+              seedColor: Colors.teal, brightness: Brightness.dark),
         ),
         home: MyHomePage(),
       ),
